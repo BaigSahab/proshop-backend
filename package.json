@@ -1,0 +1,26 @@
+{
+  "name": "proshop-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "data:import": "node seeder",
+    "data:destroy": "node seeder -d"
+  },
+  "author": "Sufyan Baig",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.0.14"
+  }
+}
